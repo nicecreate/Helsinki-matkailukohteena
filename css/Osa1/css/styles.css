@@ -1,0 +1,85 @@
+/*
+  CSS-kokonaisharjoitus – Osa 1
+  Täydennä alla olevat säännöt tehtäväsivun vaatimusten mukaan.
+
+  Tässä harjoituksessa EI käytetä Flexboxia tai Gridiä.
+*/
+
+/* 1. Elementtivalitsin
+   Aseta sivulle margin, fontti, fonttikoko, rivikorkeus,
+   tekstin väri ja taustaväri. */
+body {
+  margin: 0px;
+  font: bold;
+  font-size: 14px;
+  line-height: 1.5px;
+  text-color: black;
+background-color: aquamarine;
+min-height: 100vh;/* 100% näytön korkeudesta*/
+}
+
+/* 2. Ryhmittelyvalitsin
+   Anna h1-, h2- ja h3-otsikoille sama tekstiväri. */
+h1,
+h2, 
+h3
+ {
+  color:#000;
+}
+
+/* 3. Elementtivalitsin
+   Linkkien tekstiväri on lila. */
+a {
+  /* Linkkien tyyli on bold */
+  /* Linkkien reunat ovat mustat */
+  border: 2px solid #000;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-color 
+
+/* 4. Luokkavalitsimet
+   Rajaa sisältö enimmäisleveyteen, keskitä se ja lisää sisätilaa. */
+site-header /* Yläpalkin tyyli */
+display flex
+justify-content space-between
+align-items center
+z-index: 1000;
+font-weight: bold;
+
+
+max-width 
+margin auto
+padding 
+widht 
+box-sizing border-box
+
+z-index 
+font-weight bold
+
+
+main,
+.site-footer  /* Alapalkin tyyli */
+  /* Kirjoita ominaisuudet tähän. */
+  /*Yrityksen yhteystiedot tähän */
+  text-color 
+
+
+/* 5. Luokkavalitsin
+   Lisää kortille ulkoväli, sisätila, tausta, reuna ja pyöristetyt kulmat. */
+.card 
+  /* Kirjoita ominaisuudet tähän. */
+
+/* 6. ID-valitsin
+   Lisää ylätunnisteen alareunaan erottuva reunaviiva. */
+#top 
+  /* Kirjoita ominaisuus tähän. */
+
+
+/* 7. Luokkavalitsin
+   Tee linkistä painikkeen näköinen väreillä, reunalla, sisätilalla
+   ja pyöristyksellä. Poista tavallinen alleviivaus. */
+.button 
+  /* Kirjoita ominaisuudet tähän. */
+
+/* 8. Valitse vielä vähintään yksi sivun luokka ja tee sille oma sääntö.
+   Esimerkkejä: .hero, .eyebrow, .card__badge tai .site-footer. */   
