@@ -64,14 +64,21 @@ main,
 
 /* 5. Luokkavalitsin
    Lisää kortille ulkoväli, sisätila, tausta, reuna ja pyöristetyt kulmat. */
-.card 
+.card {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 8px; /* pyöristetyt kulmat */
+} 
   /* Kirjoita ominaisuudet tähän. */
 
 /* 6. ID-valitsin
    Lisää ylätunnisteen alareunaan erottuva reunaviiva. */
-#top 
+#top {
   /* Kirjoita ominaisuus tähän. */
-
+  border-bottom: 3px solid #000000;
+}
 
 /* 7. Luokkavalitsin
    Tee linkistä painikkeen näköinen väreillä, reunalla, sisätilalla
