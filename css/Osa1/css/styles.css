@@ -83,8 +83,22 @@ main,
 /* 7. Luokkavalitsin
    Tee linkistä painikkeen näköinen väreillä, reunalla, sisätilalla
    ja pyöristyksellä. Poista tavallinen alleviivaus. */
-.button 
+.button {
+  background-color; #000000;
+  color: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 4px;
+  text-decoration: nonoe;
+  display: inline-block; /* Varmistaa padding ja margin toimivat linkillä oikein */
+}
   /* Kirjoita ominaisuudet tähän. */
 
 /* 8. Valitse vielä vähintään yksi sivun luokka ja tee sille oma sääntö.
    Esimerkkejä: .hero, .eyebrow, .card__badge tai .site-footer. */   
+.hero {
+  background-color: #ffffff;
+  padding: 40px;
+  text-aling: center;
+  border-radius: 12px;
+  margin-bottom: 24px;
+}
