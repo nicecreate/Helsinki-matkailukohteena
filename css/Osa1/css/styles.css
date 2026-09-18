@@ -9,7 +9,7 @@
    Aseta sivulle margin, fontti, fonttikoko, rivikorkeus,
    tekstin väri ja taustaväri. */
 body {
-  margin: 0px;
+  margin: 16px;
   font: bold;
   font-size: 14px;
   line-height: 1.5px;
